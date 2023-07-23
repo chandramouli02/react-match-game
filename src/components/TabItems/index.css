@@ -1,0 +1,25 @@
+.tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+}
+.tab-item {
+  margin: 20px;
+}
+.tab-btn {
+  background-color: transparent;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.tab-item-selected {
+  color: yellow;
+  border-bottom: 3px solid yellow;
+}
